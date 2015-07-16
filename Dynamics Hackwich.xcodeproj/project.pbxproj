@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F980E4E1B5331C9003F92D6 /* Brick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F980E4D1B5331C9003F92D6 /* Brick.swift */; };
+		1FB494161B4EC527004B6FE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB494151B4EC527004B6FE5 /* AppDelegate.swift */; };
+		1FB494181B4EC527004B6FE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB494171B4EC527004B6FE5 /* ViewController.swift */; };
+		1FB4941B1B4EC527004B6FE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB494191B4EC527004B6FE5 /* Main.storyboard */; };
+		1FB4941D1B4EC527004B6FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FB4941C1B4EC527004B6FE5 /* Assets.xcassets */; };
+		1FB494201B4EC527004B6FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB4941E1B4EC527004B6FE5 /* LaunchScreen.storyboard */; };
+		1FB4942B1B4EC527004B6FE5 /* Dynamics_HackwichTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4942A1B4EC527004B6FE5 /* Dynamics_HackwichTests.swift */; };
+		1FB494361B4EC527004B6FE5 /* Dynamics_HackwichUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB494351B4EC527004B6FE5 /* Dynamics_HackwichUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FB494271B4EC527004B6FE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FB4940A1B4EC527004B6FE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FB494111B4EC527004B6FE5;
+			remoteInfo = "Dynamics Hackwich";
+		};
+		1FB494321B4EC527004B6FE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FB4940A1B4EC527004B6FE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FB494111B4EC527004B6FE5;
+			remoteInfo = "Dynamics Hackwich";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F980E4D1B5331C9003F92D6 /* Brick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brick.swift; sourceTree = "<group>"; };
+		1FB494121B4EC527004B6FE5 /* Dynamics Hackwich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dynamics Hackwich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FB494151B4EC527004B6FE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FB494171B4EC527004B6FE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FB4941A1B4EC527004B6FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FB4941C1B4EC527004B6FE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FB4941F1B4EC527004B6FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FB494211B4EC527004B6FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FB494261B4EC527004B6FE5 /* Dynamics HackwichTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dynamics HackwichTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FB4942A1B4EC527004B6FE5 /* Dynamics_HackwichTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamics_HackwichTests.swift; sourceTree = "<group>"; };
+		1FB4942C1B4EC527004B6FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FB494311B4EC527004B6FE5 /* Dynamics HackwichUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dynamics HackwichUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FB494351B4EC527004B6FE5 /* Dynamics_HackwichUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamics_HackwichUITests.swift; sourceTree = "<group>"; };
+		1FB494371B4EC527004B6FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FB4940F1B4EC527004B6FE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB494231B4EC527004B6FE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB4942E1B4EC527004B6FE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FB494091B4EC527004B6FE5 = {
+			isa = PBXGroup;
+			children = (
+				1FB494141B4EC527004B6FE5 /* Dynamics Hackwich */,
+				1FB494291B4EC527004B6FE5 /* Dynamics HackwichTests */,
+				1FB494341B4EC527004B6FE5 /* Dynamics HackwichUITests */,
+				1FB494131B4EC527004B6FE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FB494131B4EC527004B6FE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FB494121B4EC527004B6FE5 /* Dynamics Hackwich.app */,
+				1FB494261B4EC527004B6FE5 /* Dynamics HackwichTests.xctest */,
+				1FB494311B4EC527004B6FE5 /* Dynamics HackwichUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FB494141B4EC527004B6FE5 /* Dynamics Hackwich */ = {
+			isa = PBXGroup;
+			children = (
+				1FB494151B4EC527004B6FE5 /* AppDelegate.swift */,
+				1FB494171B4EC527004B6FE5 /* ViewController.swift */,
+				1F980E4D1B5331C9003F92D6 /* Brick.swift */,
+				1FB494191B4EC527004B6FE5 /* Main.storyboard */,
+				1FB4941C1B4EC527004B6FE5 /* Assets.xcassets */,
+				1FB4941E1B4EC527004B6FE5 /* LaunchScreen.storyboard */,
+				1FB494211B4EC527004B6FE5 /* Info.plist */,
+			);
+			path = "Dynamics Hackwich";
+			sourceTree = "<group>";
+		};
+		1FB494291B4EC527004B6FE5 /* Dynamics HackwichTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FB4942A1B4EC527004B6FE5 /* Dynamics_HackwichTests.swift */,
+				1FB4942C1B4EC527004B6FE5 /* Info.plist */,
+			);
+			path = "Dynamics HackwichTests";
+			sourceTree = "<group>";
+		};
+		1FB494341B4EC527004B6FE5 /* Dynamics HackwichUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FB494351B4EC527004B6FE5 /* Dynamics_HackwichUITests.swift */,
+				1FB494371B4EC527004B6FE5 /* Info.plist */,
+			);
+			path = "Dynamics HackwichUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FB494111B4EC527004B6FE5 /* Dynamics Hackwich */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB4943A1B4EC527004B6FE5 /* Build configuration list for PBXNativeTarget "Dynamics Hackwich" */;
+			buildPhases = (
+				1FB4940E1B4EC527004B6FE5 /* Sources */,
+				1FB4940F1B4EC527004B6FE5 /* Frameworks */,
+				1FB494101B4EC527004B6FE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dynamics Hackwich";
+			productName = "Dynamics Hackwich";
+			productReference = 1FB494121B4EC527004B6FE5 /* Dynamics Hackwich.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FB494251B4EC527004B6FE5 /* Dynamics HackwichTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB4943D1B4EC527004B6FE5 /* Build configuration list for PBXNativeTarget "Dynamics HackwichTests" */;
+			buildPhases = (
+				1FB494221B4EC527004B6FE5 /* Sources */,
+				1FB494231B4EC527004B6FE5 /* Frameworks */,
+				1FB494241B4EC527004B6FE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FB494281B4EC527004B6FE5 /* PBXTargetDependency */,
+			);
+			name = "Dynamics HackwichTests";
+			productName = "Dynamics HackwichTests";
+			productReference = 1FB494261B4EC527004B6FE5 /* Dynamics HackwichTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FB494301B4EC527004B6FE5 /* Dynamics HackwichUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB494401B4EC527004B6FE5 /* Build configuration list for PBXNativeTarget "Dynamics HackwichUITests" */;
+			buildPhases = (
+				1FB4942D1B4EC527004B6FE5 /* Sources */,
+				1FB4942E1B4EC527004B6FE5 /* Frameworks */,
+				1FB4942F1B4EC527004B6FE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FB494331B4EC527004B6FE5 /* PBXTargetDependency */,
+			);
+			name = "Dynamics HackwichUITests";
+			productName = "Dynamics HackwichUITests";
+			productReference = 1FB494311B4EC527004B6FE5 /* Dynamics HackwichUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FB4940A1B4EC527004B6FE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Travis;
+				TargetAttributes = {
+					1FB494111B4EC527004B6FE5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					1FB494251B4EC527004B6FE5 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1FB494111B4EC527004B6FE5;
+					};
+					1FB494301B4EC527004B6FE5 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1FB494111B4EC527004B6FE5;
+					};
+				};
+			};
+			buildConfigurationList = 1FB4940D1B4EC527004B6FE5 /* Build configuration list for PBXProject "Dynamics Hackwich" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FB494091B4EC527004B6FE5;
+			productRefGroup = 1FB494131B4EC527004B6FE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FB494111B4EC527004B6FE5 /* Dynamics Hackwich */,
+				1FB494251B4EC527004B6FE5 /* Dynamics HackwichTests */,
+				1FB494301B4EC527004B6FE5 /* Dynamics HackwichUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FB494101B4EC527004B6FE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB494201B4EC527004B6FE5 /* LaunchScreen.storyboard in Resources */,
+				1FB4941D1B4EC527004B6FE5 /* Assets.xcassets in Resources */,
+				1FB4941B1B4EC527004B6FE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB494241B4EC527004B6FE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB4942F1B4EC527004B6FE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FB4940E1B4EC527004B6FE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB494181B4EC527004B6FE5 /* ViewController.swift in Sources */,
+				1FB494161B4EC527004B6FE5 /* AppDelegate.swift in Sources */,
+				1F980E4E1B5331C9003F92D6 /* Brick.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB494221B4EC527004B6FE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB4942B1B4EC527004B6FE5 /* Dynamics_HackwichTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB4942D1B4EC527004B6FE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB494361B4EC527004B6FE5 /* Dynamics_HackwichUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FB494281B4EC527004B6FE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FB494111B4EC527004B6FE5 /* Dynamics Hackwich */;
+			targetProxy = 1FB494271B4EC527004B6FE5 /* PBXContainerItemProxy */;
+		};
+		1FB494331B4EC527004B6FE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FB494111B4EC527004B6FE5 /* Dynamics Hackwich */;
+			targetProxy = 1FB494321B4EC527004B6FE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FB494191B4EC527004B6FE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FB4941A1B4EC527004B6FE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FB4941E1B4EC527004B6FE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FB4941F1B4EC527004B6FE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FB494381B4EC527004B6FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FB494391B4EC527004B6FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FB4943B1B4EC527004B6FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dynamics Hackwich/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTD.Dynamics-Hackwich";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FB4943C1B4EC527004B6FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dynamics Hackwich/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTD.Dynamics-Hackwich";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1FB4943E1B4EC527004B6FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dynamics HackwichTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTD.Dynamics-HackwichTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dynamics Hackwich.app/Dynamics Hackwich";
+			};
+			name = Debug;
+		};
+		1FB4943F1B4EC527004B6FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dynamics HackwichTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTD.Dynamics-HackwichTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dynamics Hackwich.app/Dynamics Hackwich";
+			};
+			name = Release;
+		};
+		1FB494411B4EC527004B6FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dynamics HackwichUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTD.Dynamics-HackwichUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dynamics Hackwich";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1FB494421B4EC527004B6FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dynamics HackwichUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTD.Dynamics-HackwichUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dynamics Hackwich";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FB4940D1B4EC527004B6FE5 /* Build configuration list for PBXProject "Dynamics Hackwich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB494381B4EC527004B6FE5 /* Debug */,
+				1FB494391B4EC527004B6FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FB4943A1B4EC527004B6FE5 /* Build configuration list for PBXNativeTarget "Dynamics Hackwich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB4943B1B4EC527004B6FE5 /* Debug */,
+				1FB4943C1B4EC527004B6FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FB4943D1B4EC527004B6FE5 /* Build configuration list for PBXNativeTarget "Dynamics HackwichTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB4943E1B4EC527004B6FE5 /* Debug */,
+				1FB4943F1B4EC527004B6FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FB494401B4EC527004B6FE5 /* Build configuration list for PBXNativeTarget "Dynamics HackwichUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB494411B4EC527004B6FE5 /* Debug */,
+				1FB494421B4EC527004B6FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FB4940A1B4EC527004B6FE5 /* Project object */;
+}
